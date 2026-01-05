@@ -1,0 +1,41 @@
+/* Main background and text */
+.main {
+    background-color: #f9f9f9;
+}
+
+/* Header Styling */
+h1 {
+    color: #2c3e50;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+
+h2, h3 {
+    color: #34495e;
+}
+
+/* Tab Styling */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 10px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: 50px;
+    white-space: pre-wrap;
+    background-color: #ecf0f1;
+    border-radius: 4px 4px 0px 0px;
+    gap: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Metric Cards (if used, or general boxes) */
+div[data-testid="stMetricValue"] {
+    font-size: 24px;
+    color: #e74c3c;
+}
